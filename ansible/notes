@@ -1,6 +1,9 @@
 Ansible is an open-source IT engine that automates application deployment, cloud provisioning, intra service orchestration, and other IT tools.
 For example
-There is one company and 100 enployees are working there  and have 100 of systems(servers) and there is one system adminstrator who is managing all the servers there  and there is task  for him/her to install some software on all the servers of company and will be be difficult to install software on all the systems manually and it is very time consuming and chances of error is too much so in order to solve all these problems he/she has to use devops tool ansible to install software on all the systems by using yaml scripts .
+There is one company and 100 enployees are working there  and have 100 of systems(servers) and there is one system adminstrator who is managing all the servers there
+and there is task  for him/her to install some software on all the servers of company and will be be difficult to install software on all the systems manually and
+it is very time consuming and chances of error is too much so in order to solve all these problems he/she has to use devops tool ansible to install software 
+on all the systems by using yaml scripts .
 
 steps to install ansible
 sudo apt-get update
@@ -44,6 +47,8 @@ ansible works on push
 it will push notifications to all  servers to update the software
 now run playbook
  ansible-playbook sample.yaml
+ Done 
+ Thank you
 
 
 
